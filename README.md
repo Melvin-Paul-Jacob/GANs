@@ -31,17 +31,17 @@ Each GIF has one frame per epoch (100 frames, 100 ms each).
 
 | GAN | cGAN |
 |:---:|:---:|
-| ![GAN](results/gan_training.gif) | ![cGAN](results/cgan_training.gif) |
+| ![GAN](src/results/gan_training.gif) | ![cGAN](src/results/cgan_training.gif) |
 | Samples from fixed noise | One row per digit, 0–9 (top to bottom) |
 
 | VAE | VAE-GAN |
 |:---:|:---:|
-| ![VAE](results/vae_training.gif) | ![VAE-GAN](results/vae-gan_training.gif) |
+| ![VAE](src/results/vae_training.gif) | ![VAE-GAN](src/results/vae-gan_training.gif) |
 | 64 samples decoded from fixed latent vectors | Same as VAE, with an added adversarial loss |
 
 **SRGAN** (rows from top to bottom: ground-truth HR, low-res input (7×7, upscaled for display), super-resolved output):
 
-![SRGAN](results/SRGAN_training.gif)
+![SRGAN](src/results/SRGAN_training.gif)
 
 ---
 
