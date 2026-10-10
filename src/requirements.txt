@@ -1,0 +1,18 @@
+--use-feature=truststore
+--index-url https://download.pytorch.org/whl/cu130
+--trusted-host download.pytorch.org
+--trusted-host pypi.org
+--trusted-host files.pythonhosted.org
+
+torch
+torchvision
+tqdm
+torchinfo
+matplotlib
+opencv-python
+opencv-contrib-python
+scipy
+
+
+
+# python -m pip install torch torchvision --use-feature=truststore --index-url https://download.pytorch.org/whl/cu130
